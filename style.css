@@ -1,4 +1,31 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
 
+h1{color:grey;font-family:verdana}
 
+/* main div block */
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    margin:auto;
+    text-align: center;
+}
+
+/* align all the input tag */
+.content{
+    text-align: left;
+    width:300px;
+    margin: auto;
+}
+
+/* changing background for result value like interest, rate, year etc */
+#value{
+    background-color: yellow;
+}
+
+/* style the footer tag */
+footer{
+    text-align: left;
+}
